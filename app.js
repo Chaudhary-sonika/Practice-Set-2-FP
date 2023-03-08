@@ -92,4 +92,13 @@ const bollywoodMovies = [
   const getBestOldBollywoodMovies =(arrayOfObj) => arrayOfObj.filter((getMovie) => getMovie.year < 1990 && getMovie.rating > 8.0);
 
   const bestOldMovies = getBestOldBollywoodMovies(bollywoodMovies);
-console.log(bestOldMovies);
+//   const {title, director, year, rating} = bestOldMovies;
+
+
+const title_name = bestOldMovies.map(objArr=> objArr.title);
+
+// var bestTitles = []
+// for (i = 0; i < bestOldMovies.length; i++) {
+//   bestTitles[i] = bestOldMovies[i]['title'];
+// }
+console.log(title_name);
