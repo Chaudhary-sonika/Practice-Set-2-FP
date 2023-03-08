@@ -1,3 +1,25 @@
+// 1. Given an array of objects representing people, write an ES6 function to return a new array containing only the names of the people.
+// const people = [{ name: 'Raj', age: 28 }, { name: 'Swapnil', age: 42 }, { name: 'Anushka', age: 35 }];
+// const selectName= objArr=> objArr.name;
+// const names = people.map(selectName);
+// console.log(names);
+
+// 2. Given an array, write an ES6 function to return a new array with all the elements multiplied by 5.
+// const numbers = [1,2,3,4];
+// const multiplyByFive = numbers.map(num => num * 5);
+// console.log(multiplyByFive);
+
+// 3. Given employee’s data, write an ES6 function which greets them with a personalized message for onboarding.
+    
+//     const employeeData = [
+//     	{name: "ram", dept: "marketing"}, 
+//     	{name: "Radha", dept: "SDE"},
+//     	{name: "shyam", dept: "finance professional"},
+//     ]
+// const greetEmployeeMessages = employeeData.map(data =>{return `Hi ${data.name} we are glad to have you as a ${data.dept}`})
+    
+// console.log(greetEmployeeMessages);
+
 // 4. Write an ES6 function that takes an array of objects representing books and returns an array with only the titles of each book.
 
 const books = [{ title: 'The Great Gatsby', author: 'F. Scott Fitzgerald'}, {title:'To Kill a Mokingbird', author: 'Harper Lee'}, { title:'1984', author: 'George Orwell'}, { title: 'Pride and Prejudice', author: 'Jane Austen'}];
